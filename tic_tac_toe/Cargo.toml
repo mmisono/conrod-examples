@@ -1,0 +1,15 @@
+[package]
+name = "tic_tac_toe"
+version = "0.1.0"
+authors = ["Masanori Misono <m.misono760@gmail.com>"]
+
+[[bin]]
+name = "tic_tac_toe"
+
+[dependencies.conrod]
+version = "0.53.0"
+features = ["glium", "winit"]
+
+[dependencies]
+clap = "*"
+

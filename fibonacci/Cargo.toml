@@ -1,0 +1,14 @@
+[package]
+name = "fibonacci"
+version = "0.1.0"
+authors = ["Masanori Misono <m.misono760@gmail.com>"]
+
+[[bin]]
+name = "fibonacci"
+
+[dependencies.conrod]
+version = "0.53.0"
+features = ["glium", "winit"]
+
+[dependencies]
+find_folder = "*"

@@ -1,0 +1,2 @@
+[workspace]
+members = ["fibonacci", "tic_tac_toe"]
